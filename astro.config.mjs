@@ -5,16 +5,16 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'PIMS by EHSSG',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ehssgoffice',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting Started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Requirements', slug: 'getting-started/requirements' },
 					],
 				},
 				{
