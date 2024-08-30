@@ -3,9 +3,10 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.ehssg.org',
 	integrations: [
 		starlight({
-			title: 'PIMS by EHSSG',
+			title: 'Docs by EHSSG',
 			social: {
 				github: 'https://github.com/ehssgoffice',
 			},
