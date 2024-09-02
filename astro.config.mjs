@@ -6,6 +6,7 @@ export default defineConfig({
 	site: 'https://docs.ehssg.org',
 	integrations: [
 		starlight({
+			favicon: 'favicon.ico',
 			title: 'Docs by EHSSG',
 			social: {
 				github: 'https://github.com/ehssgoffice',
@@ -15,12 +16,27 @@ export default defineConfig({
 					label: 'Getting Started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Requirements', slug: 'getting-started/requirements' },
+						{ label: 'Introduction', slug: 'getting-started/introduction' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Office Tasks',
+					items: [
+						{ label: 'Setting up Email', slug: 'office-tasks/setting-up-email' },
+						{ label: 'Using Email', slug: 'office-tasks/using-email' },
+					],
+				},
+				{
+					label: 'Pharmacy Inventory Management System',
+					items: [
+						{ label: 'Pharmacy Inventory Web', slug: 'pharmacy-inventory-management-system/pharmacy-inventory-web' },
+					],
+				},
+				{
+					label: 'General References',
+					items: [
+						{ label: 'Email Systems', slug: 'general-references/email-systems' },
+					],
 				},
 			],
 		}),

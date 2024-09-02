@@ -1,14 +1,14 @@
 ---
-title: Welcome to PIMS
-description: Pharmacy Inventory Managemen by EHSSG
+title: Welcome to EHSSG Docs
+description: Documentation by EHSSG
 template: splash
 hero:
-  tagline: Pharmacy Inventory Managemen by EHSSG
+  tagline: The homepage of EHSSG Documentation
   image:
-    file: ../../assets/pims.webp
+    file: ../../assets/docs_logo.png
   actions:
-    - text: Getting Started
-      link: /getting-started/requirements
+    - text: Get Started
+      link: /getting-started/introduction
       icon: right-arrow
     - text: Visit EHSSG website
       link: https://ehssg.org
@@ -18,19 +18,19 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Including these..and much more!
 
 <CardGrid stagger>
-	<Card title="Update your warehouse" icon="seti:svg">
-		Go to `Admin Panel/Demographic Settings/Warehouses`
+	<Card title="Office How-tos" icon="seti:svg">
+		Dealing with day-to-day office tasks
 	</Card>
-	<Card title="Update your account" icon="information">
-		Go to `Admin Panel/User Settings/Users` to update your login credentials.
+	<Card title="Set up manuals" icon="information">
+		How to set up your email, printer, scanner etc...
 	</Card>
-	<Card title="Configure app settings" icon="setting">
-		Click the User Avatar, go to `App Settings`.
+	<Card title="Pharmacy Inventory Management App" icon="setting">
+		User manual for the Pharmacy Inventory Management application developed by the EHSSG.
 	</Card>
-	<Card title="Add Warehouses and Items" icon="codePen">
-		Create each warehouse and item or import from CSV.
+	<Card title="We need your content" icon="codePen">
+		Contribute to this doc by submitting a Pull Request on [Github](https://github.com/ehssgoffice/docs).
 	</Card>
 </CardGrid>
