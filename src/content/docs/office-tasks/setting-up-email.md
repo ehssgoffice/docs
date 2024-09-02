@@ -200,7 +200,7 @@ Download ပြီးလို့ရလာတဲ့ installer ကိုဖွင
 
 Application list မှာ Thunderbird ကိုရှာဖွင့်လို့ရပါပြီ။ *Thunderbird is an app downloded from the internet. Are you sure you want to open it?* ပေါ်လာရင် **Open** နှိပ်ပါ။
 
-Thunderbird ဖွင့်လိုက်တာနဲ့ *Set up an Existing Email Account* ပေါ်လာပါလိမ့်မယ်။ မပေါ်သေးရင် Home က Set up an account အောက်မှာ **Email** ကိုနှိပ်ပြီးဖွင့်လို့ရပါတယ်။
+Thunderbird ဖွင့်လိုက်တာနဲ့ *Set up an Existing Email Account* ပေါ်လာပါလိမ့်မယ်။ မပေါ်သေးရင် Menu က New account အောက်မှာ **Email** ကိုနှိပ်ပြီးဖွင့်လို့ရပါတယ်။
 
 Your Name မှာ ကိုယ့်နာမည်ထည့်ပါ
 
@@ -241,36 +241,157 @@ Password ထည့်ပါ။ Password မမှတ်မိတော့ရင�
 
 > [Thunderbird for Mac မှာ notification အဖွင့်အပိတ်ပြုလုပ်ရန်](/office-tasks/using-email/#toggle-notifications-on-thunderbird-for-mac)
 
-### Microsoft Outlook for Mac
 ### Mac Mail
+MacOS မှာအသင့်ပါလာတဲ့ Mail client အပလီကေးရှင်းဖြစ်ပါတယ်။ MacOS Mail မှာ အီးမေးလ်ထည့်ဖို့အတွက် **System Settings** ထဲက **Internet Accounts** ကိုသွားပါ။
+
+**Add Account** ခလုတ်ကိုနှိပ်ပါ
+
+![Mac Add Other Account](../../../assets/office-tasks/using-email/mac-mail-add-other-account.png)
+
+အောက်ဆုံးက **Add Other Account...** ကိုနှိပ်ပါ။ **Mail account** ကိုထပ်ရွေးပါ
+
+**Name** မှာ မိမိနာမည်ထည့်ပါ
+
+**Email Adress** ထည့်ပါ
+
+**Password** ထည့်ပါ။ Password မမှတ်မိတော့ရင် (သို့) Password ပြောင်းချင်တယ်ဆိုရင် [Webmail မှာသွားပြောင်းလို့ရပါတယ်](#change-email-password)
+
+**Sign In** နှိပ်ပါ
+
+*Unable to verify account name or password* လို့ error ပြရင်အောက်ပါအတိုင်း ဖြည့်ပေးပါ
+
+|Email Address|`user@example.com`|
+|--|--|
+|User Name|`user@example.com`|
+|Password|`password`|
+|Account Type|`IMAP`|
+|Incoming Mail Server|`mail.example.com`|
+|Outgoing Mail Server|`mail.example.com`|
+
+:::note
+`mail.example.com` မှာ ကိုယ့်အီးမေးလ်ဆာဗာကိုထည့်သွင်းရမှာပါ။ ဥပမာ EHSSG အတွက်ဆိုရင် `mail.ehssg.org` ဖြစ်ပါတယ်။ Password မမှတ်မိတော့ရင် (သို့) Password ပြောင်းချင်တယ်ဆိုရင် [Webmail မှာသွားပြောင်းလို့ရပါတယ်](#change-email-password)
+:::
+
+*Select the apps you want to use with this account:* မှာ **Mail** တစ်ခုပဲအမှန်ခြစ်ပါ။ **Done** နှိပ်ပါ
+
+**Mail** အပလီကေးရှင်းကိုဖွင့်လိုက်ရင် အီးမေးလ်ဝင်ပြီးသားဖြစ်နေပါလိမ့်မယ်
+
+### Thunderbird for Linux
+
+[Linux အတွက် Thunderbird Download ရယူရန်](https://www.thunderbird.net/en-US/download/)။ Download စာမျက်နှာ Operating System မှာ **Linux** ကိုရွေးပါ။ **Download** ခလုတ်ကိုနှိပ်ပါ။ `thunderbird-<version>.tar.bz2` နာမည်နဲ့ installer file ရပါမယ်။
+
+*Terminal* ဖွင့်ပါ။ **Downloads** directory ကိုသွားပါ
+```sh
+cd ~/Downloads
+```
+`ls` command နဲ့ ဖိုင်စစ်ကြည့်ပါ။ Download လုပ်ထားတဲ့ `thunderbird-<version>.tar.bz2` ဖိုင်နာမည်ကို select လုပ်ပြီးကော်ပီယူပါ
+
+`tar xjf` command နောက်မှာ ဖိုင်နာမည် paste လုပ်ပြီးဖိုင်ဖြည်ချပါ
+
+```sh
+tar xjf thunderbird-*.tar.bz2
+```
+extract လုပ်ပြီးရင် `rm` command နဲ့ ဖိုင်ကိုဖျက်ပါ
+
+```sh
+rm thunderbird-*.tar.bz2
+```
+ဖြည်လိုက်လို့ရလာတဲ့ thunderbird ဖိုဒါကို `/opt` folder ထဲကိုရွှေ့ပါ
+
+```sh
+sudo mv thunderbird /opt
+```
+Password တောင်းရင်ထည့်ပေးပါ
+
+Thunderbird executable ကို symlink ဆောက်ပေးပါ
+
+```sh
+sudo ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird
+```
+Desktop file ကို `wget` command နဲ့ ဒေါင်းလုပ်ဆွဲချပါ
+
+```sh
+wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P /usr/local/share/applications
+```
+Permission denied ပြရင် `sudo` command ခံပေးပါ
+
+:::note
+စက်ထဲမှာ `wget` မရှိသေးရင် အထက်ပါ URL ကို ဘရောက်ဇာကနေသွားပါ။ `[Desktop Entry]` နဲ့စတဲ့စာမျက်နှာပွင့်လာပြီဆိုရင် right click နှိပ်ပြီး **Save As** ရွေးပါ။ Save လုပ်ပြီးရင် `/usr/local/share/applications` folder ထဲကိုရွှေ့ပေးပါ
+:::
+
+အပလီကေးရှင်းထည့်တာ မှန်/မမှန်သေချာစေဖို့ Desktop က Thunderbird ကိုဖွင့်ပါ။ Thunderbird window ရဲ့ညာဘက်အပေါ်ဆုံးထောင့်က `≡` menu icon ကိုနှိပ်ပါ
+
+*Help* ထဲက *Troubleshooting Information* ကိုသွားပါ
+
+*Application binary* နေရာမှာ **/opt/thunderbird/thunderbird-bin** လို့ပြနေရင်မှန်ပါပြီ
+
+![Thunder Linux Troubleshooting Information](../../../assets/office-tasks/using-email/thunderbird-linux-help.png)
+
+Thunderbird ဖွင့်လိုက်တာနဲ့ *Set up Your Existing Email Account* ပေါ်လာပါလိမ့်မယ်။ မပေါ်သေးရင် Menu က New account အောက်မှာ **Email** ကိုနှိပ်ပြီးဖွင့်လို့ရပါတယ်။
+
+Your Full Name မှာ ကိုယ့်နာမည်ထည့်ပါ
+
+Email address ထည့်ပါ
+
+Password ထည့်ပါ။ Password မမှတ်မိတော့ရင် (သို့) Password ပြောင်းချင်တယ်ဆိုရင် [Webmail မှာသွားပြောင်းလို့ရပါတယ်](#change-email-password)
+
+**Remember password** ကိုအမှန်ခြစ်ပါ
+
+ပြီးရင် **Configure manually** နှိပ်ပါ။ အောက်ပါအချက်အလက်တွေအတိုင်းထည့်သွင်းပါ
+
+|Incoming Server| Value |
+|--|--|
+|Protocol|`IMAP`|
+|Hostname|`mail.example.com`|
+|Port|`993`|
+|Connection security|`SSL/TLS`|
+|Authentication method|Autodetect|
+|Username|`user@example.com`|
+
+|Outgoing Server| Value |
+|--|--|
+|Hostname|`mail.example.com`|
+|Port|`465`|
+|Connection security|`SSL/TLS`|
+|Authentication method|Autodetect|
+|Username|`user@example.com`|
+
+:::note
+`mail.example.com` မှာ ကိုယ့်အီးမေးလ်ဆာဗာကိုထည့်သွင်းရမှာပါ။ ဥပမာ EHSSG အတွက်ဆိုရင် `mail.ehssg.org` ဖြစ်ပါတယ်။ Username ကိုလည်း ကိုယ့်အီးမေးလ်လိပ်စာအတိုင်းထည့်ပေးဖို့ သတိပြုပါ။ IMAP ကိုရွေးရတဲ့အကြောင်းရင်းနဲ့ [IMAP နဲ့ POP ကွာခြားချက်](/general-references/email-systems)ကိုဖတ်ရန်
+:::
+
+**Retest** ခလုတ်ကိုနှိပ်ပါ။ *The following settings were found by probing the given server* လို့ပေါ်လာရင်ချိတ်ဆက်မှုအောင်မြင်ပါတယ်။
+
+**Done** ခလုတ်ကိုနှိပ်ပါ။ အားလုံးမှန်ကန်လို့ ဆာဗာနဲ့ချိတ်ဆက်နိုင်ပြီဆိုရင် **Account Successfully Created** စာမျက်နှာကိုရောက်ပါမယ်။ Finish ခလုတ်ကိုနှိပ်ပါ။
+
+**New Message** ခလုတ်ကိုနှိပ်ပြီး အီးမေးလ်ပို့လို့ရပါပြီ
+
+> [Thunderbird for Linux မှာ notification အဖွင့်အပိတ်ပြုလုပ်ရန်](/office-tasks/using-email/#toggle-notifications-on-thunderbird-for-linux)
+
 ## Mobile Mail Clients
-### Thunderbird for Android
-### Thunderbird for iOS
 ### Outlook for iOS
-**Microsoft Outlook** အပလီကေးရှင်းကိုဖွင့်ပါ။ **Add Account** ခလုတ်ကိုနှိပ်ပါ။
+**Microsoft Outlook** အပလီကေးရှင်းကိုဖွင့်ပါ။ **Add Account** ခလုတ်ကိုနှိပ်ပါ။ ဖုန်းထဲမှာဝင်ထားဖူးတဲ့ Gmail account ၊ Microsoft account တွေရှိရင်ပြပေးနေပါလိမ့်မယ်။ ကိုယ်ဝင်ချင်တဲ့အီးမေးလ်မပါသေးဘူးဆိုရင် **Skip** နှိပ်ပါ
 
 **Email** ထည့်သွင်းပါ
 
-*Email Provider* မှာ **IMAP** ကိုရွေးပါ
+*Email Provider* မှာ **IMAP** ကိုအလိုအလျောက်ရွေးပေးပါလိမ့်မယ်။
 
 > IMAP ကိုရွေးရတဲ့အကြောင်းရင်းနဲ့ [IMAP နဲ့ POP ကွာခြားချက်](/general-references/email-systems)ကိုဖတ်ရန်
 
 အောက်ပါအချက်အလက်တွေအတိုင်းထည့်သွင်းပါ
 
-|IMAP Incoming Email Server|Value|
+|Email Address|`user@example.com`|
 |--|--|
+|Display Name|`Your name`|
 |IMAP Hostname|`mail.example.com`|
 |IMAP Port|`993`|
 |Port Security|`SSL`|
-|IMAP Username|`mail.example.com`|
+|IMAP Username|`user@example.com`|
 |IMAP Password|`password`|
-
-|SMTP Outgoing Email Server| Value |
-|--|--|
 |SMTP Hostname|`mail.example.com`|
 |SMTP Port|`465`|
 |Port Secrity|`SSL`|
-|SMTP Username|`mail.example.com`|
+|SMTP Username|`user@example.com`|
 |SMTP Password|`password`|
 
 :::note
@@ -281,3 +402,48 @@ Password ထည့်ပါ။ Password မမှတ်မိတော့ရင�
 
 အီးမေးလ်အသစ်ဝင်လို့ notification ရချင်ရင် *Outlook would like to Send You Notifications* ပေါ်လာတဲ့အခါ **Allow** နှိပ်ပါ။
 ### iOS Mail
+**Settings** ကိုသွားပါ
+
+**Mail** ကိုသွားပါ
+
+![iOS Mail Setting](../../../assets/office-tasks/using-email/ios-mail-setting.png)
+
+**Accounts** ထဲကိုသွားပါ
+
+**Add Account** ကိုရွေးပါ
+
+![Mac Add Other Account](../../../assets/office-tasks/using-email/mac-mail-add-other-account.png)
+
+အောက်ဆုံးက **Add Other Account...** ကိုနှိပ်ပါ။ **Add Mail account** ကိုထပ်ရွေးပါ
+
+**Name** မှာ မိမိနာမည်ထည့်ပါ
+
+**Email Adress** ထည့်ပါ
+
+**Password** ထည့်ပါ။ Password မမှတ်မိတော့ရင် (သို့) Password ပြောင်းချင်တယ်ဆိုရင် [Webmail မှာသွားပြောင်းလို့ရပါတယ်](#change-email-password)
+
+**Next** နှိပ်ပါ
+
+နောက်စာမျက်နှာမှာ **IMAP** ရွေးပြီး အောက်ပါအတိုင်း ဖြည့်ပေးပါ
+
+> IMAP ကိုရွေးရတဲ့အကြောင်းရင်းနဲ့ [IMAP နဲ့ POP ကွာခြားချက်](/general-references/email-systems)ကိုဖတ်ရန်
+
+|INCOMING MAIL SERVER|Value|
+|--|--|
+|Host Name|`mail.example.com`|
+|User Name|`user@example.com`|
+|Password|`password`|
+
+|OUTGOING MAIL SERVER|Value
+|--|--|
+|Host Name|`mail.example.com`|
+|User Name|`user@example.com`|
+|Password|`password`|
+
+:::note
+`mail.example.com` မှာ ကိုယ့်အီးမေးလ်ဆာဗာကိုထည့်သွင်းရမှာပါ။ ဥပမာ EHSSG အတွက်ဆိုရင် `mail.ehssg.org` ဖြစ်ပါတယ်။ Password မမှတ်မိတော့ရင် (သို့) Password ပြောင်းချင်တယ်ဆိုရင် [Webmail မှာသွားပြောင်းလို့ရပါတယ်](#change-email-password)
+:::
+
+*Verifying* လို့ပြနေပြီး အမှန်ခြစ်ပြပြီဆိုရင် ချိတ်ဆက်တဲ့အပိုင်းအဆင်ပြေပါပြီ။ နောက်စာမျက်နှာ ***Mail** တစ်ခုပဲအမှန်ခြစ်ပါ။ **Save** နှိပ်ပါ
+
+**Mail** အပလီကေးရှင်းကိုဖွင့်လိုက်ရင် အီးမေးလ်ဝင်ပြီးသားဖြစ်နေပါလိမ့်မယ်
