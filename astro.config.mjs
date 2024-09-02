@@ -27,6 +27,12 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Humentum Courses by EHSSG',
+					items: [
+						{ label: 'Learning Courses', slug: 'humentum-courses/learning-courses' },
+					],
+				},
+				{
 					label: 'Pharmacy Inventory Management System',
 					items: [
 						{ label: 'Pharmacy Inventory Web', slug: 'pharmacy-inventory-management-system/pharmacy-inventory-web' },
