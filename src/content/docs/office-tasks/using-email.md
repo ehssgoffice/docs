@@ -17,3 +17,12 @@ General tab အောက်က **Incoming Mails** အထိရောက်အေ
 * *Play a sound* က အီးမေးလ်ဝင်လာရင်အသံထွက်ပေးပါတယ်
 
 Notification မပေါ်စေချင်ရင်တော့ *Show an alert* ကိုအမှန်ခြစ်ဖြုတ်ထားလို့ရပါတယ်။ *Show an alert* မလုပ်ထားဘဲ *Play a sound* ပဲလုပ်ထားရင်တော့ notification မတက်ဘဲအသံပဲကြားရမှာဖြစ်ပါတယ်။
+
+### Toggle notifications on thunderbird for Mac
+အီးမေးလ်ဝင်တဲ့အခါ notification ပြချင်/ပိတ်ချင်တယ်ဆိုရင် Mac ရဲ့ **System Settings** ကိုဖွင့်ပါ
+
+**Notifications** ကိုသွားပါ
+
+**Thunderbird** ကိုနှိပ်ပါ
+
+**Allow notifications** ကိုအဖွင့်အပိတ်လုပ်ခြင်းအားဖြင့် notification ပေါ်အောင်/ပျောက်အောင်လုပ်နိုင်ပါတယ်။
