@@ -29,7 +29,10 @@ export default defineConfig({
 				{
 					label: 'Humentum Courses by EHSSG',
 					items: [
+						{ label: 'Applying for Humentum Courses', slug: 'humentum-courses/applying-for-humentum-courses'},
+						{ label: 'Joining Courses', slug: 'humentum-courses/joining-courses' },
 						{ label: 'Learning Courses', slug: 'humentum-courses/learning-courses' },
+						{ label: 'Managing Your Account and Profile', slug: 'humentum-courses/managing-your-account-and-profile' },
 					],
 				},
 				{
