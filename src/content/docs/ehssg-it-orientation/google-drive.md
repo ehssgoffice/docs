@@ -76,3 +76,53 @@ Google Drive application ပွင့်လာရင် **Add Another Account** 
 Google Drive login အောင်မြင်ကြောင်း message တွေ့ရပါမယ်။ This PC ထဲမှာလည်း နောက်ထပ် Drive တစ်ခုထပ်တိုးလာတာတွေ့ရမှာဖြစ်ပါတယ်
 
 ![](../../../assets/it-orientation/google-this-pc-another-drive.png)
+
+## How to transfer ownership
+
+Google Drive တစ်ခုကို share လုပ်ပြီးသုံးကြတဲ့အခါ ဖိုင်သိမ်းတဲ့နေရာဟာ ကိုယ့်ရဲ့ Drive မဟုတ်ပေမယ့်လည်း file owner နေရာမှာ ကိုယ်ဖြစ်နေလျှင် ကိုယ့်ရဲ့ personal Google Drive space ထဲက လာနုတ်ယူပါတယ်။
+Word, Excel တို့နဲ့ဖွင့်ရတဲ့ ဖိုင်တွေကြောင့် personal Google Drive space ထိတာ မသိသာပေမယ့် Scan လုပ်ထားတဲ့ ဖိုင်တွေအသိမ်းများလာတဲ့အခါ personal space ပြည့်လာတတ်ပါတယ်။
+ဒါကြောင့် Shared drive ထဲက ကိုယ်ပိုင်ဖိုင်တွေကို တခြားသူဆီလွှဲပြောင်းပေးဖို့လိုပါတယ်။
+
+### Who is the Owner?
+
+[`https://drive.google.com`](https://drive.google.com) ကိုသွားပါ။
+
+Shared လုပ်ပြီးသုံးနေတဲ့ folder ကို အရင်ဆုံးသွားပါ။ ပုံသေအားဖြင့် Grid Layout နဲ့ မြင်ရတတ်ပါတယ်။
+
+Grid Layout မှာ ownership ကို အလွယ်တကူမမြင်ရတာကြောင့် List Layout နဲ့ခေါ်ကြည့်ဖို့လိုပါတယ်။
+
+List Layout ခေါ်ကြည့်ဖို့ ပုံမှာပြထားတဲ့ ခလုတ်ကိုနှိပ်ပြီး ကြည့်နိုင်ပါတယ်။
+
+![Google Drive List Layout](../../../assets/it-orientation/google-drive-list-layout.png)
+
+List Layout နှင့်ခေါ်ကြည့်လိုက်လျှင်တော့ Owner ဘယ်သူလဲဆိုတာ မြင်ရမှာဖြစ်ပါတယ်။
+
+![Google Drive Owner View](../../../assets/it-orientation/google-drive-owner-view.png)
+
+Owner မှာ `me` ပြနေတာတွေဟာ ကိုယ့်အကောင့်နဲ့ create လုပ်ထားတဲ့ file တွေ၊ folder တွေဖြစ်ပါတယ်။ ဒီထဲက file size ကြီးတာတွေကို ownership transfer လုပ်လိုက်ရင် personal space ထဲက သိသိသာသာလျော့သွားမှာဖြစ်ပါတယ်။
+
+ဥပမာအားဖြင့် ဓါတ်ပုံတွေ၊ scan ဖတ်ထားတဲ့ PDF ဖိုင်တွေ၊ အသံဖိုင်၊ ဗီဒီယိုဖိုင်တွေဟာ file size ကြီးတတ်တာကြောင့် အဲဒီဖိုင်တွေကို transfer ownership လုပ်ပေးဖို့လိုပါတယ်။
+
+### Transfer File
+
+ownership လွှဲချင်တဲ့ ဖိုင်ကို Right Click နှိပ်ပါ။
+
+`Share` → `Share` ကိုသွားပါ။
+
+![Google Drive Share](../../../assets/it-orientation/google-drive-share-and-share.png)
+
+ဒီဖိုင်ကို access ရနေတဲ့ user စာရင်းပေါ်လာမှာဖြစ်ပါတယ်။ ကိုယ့်အကောင့်က `Owner` လို့ပြနေပါမယ်။
+
+![Google Drive File Access List](../../../assets/it-orientation/google-drive-file-access-list.png)
+
+ownership လွှဲပေးချင်တဲ့အကောင့်ရဲ့ ညာဘက်က dropdown ကိုနှိပ်ပြီး `Transfer Ownership` ရွေးပေးပါ။
+
+![Click Transfer Ownership](../../../assets/it-orientation/google-drive-click-transfer-ownership.png)
+
+Transfer ownership? confirm ပေါ်လာရင် `Send Invitation` ခလုတ်ကိုနှိပ်ပါ။
+
+![Send Invitation](../../../assets/it-orientation/google-drive-transfer-ownership-send.png)
+
+`Invitation Sent` ဆိုတဲ့ message ပေါ်လာရင် ကိုယ့်ဘက်က transfer ownership လုပ်တဲ့အပိုင်းပြီးသွားပါပြီ။ အထက်ပါအဆင့်တွေအတိုင်း file size ကြီးတာတွေကို Transfer ownership လုပ်ပေးသွားဖို့လိုပါတယ်။
+
+လက်ခံရရှိတဲ့ အကောင့်ဘက်ကနေ `Accept` ခလုတ်ကိုနှိပ်ပေးပြီးတဲ့အခါမှာတော့ မိမိ personal space ထဲမှာ နေရာလွတ်တွေပြန်ရလာမှာဖြစ်ပါတယ်။ လက်ခံရရှိတဲ့အကောင့်ကို `Accept` နှိပ်ပြီးလက်ခံယူပေးဖို့ သတိပေးဖို့လိုပါတယ်။

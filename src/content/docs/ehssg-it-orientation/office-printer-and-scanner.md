@@ -35,3 +35,6 @@ File Type မှာ PNG, JPEG and PDF စသည်ဖြင့် လိုခ�
 
 ![](../../../assets/it-orientation/scanner-file-type.png)
 
+စာရွက်တစ်ရွက်ထက်ပိုတဲ့အခါ Compiling PDF မှာ တခါတလေ error ပြတတ်ပါတယ်။ Error ပြရင် နောက်တစ်ကြိမ် scan ပြုလုပ်ပါ။
+
+Scan completed ဖြစ်ပြီဆိုရင် `This PC/Pictures/Scans` ထဲကိုပုံတွေရောက်သွားမှာဖြစ်ပါတယ်
