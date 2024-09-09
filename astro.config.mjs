@@ -43,6 +43,7 @@ export default defineConfig({
 						{ label: 'Office Printer and Scanner', slug: 'ehssg-it-orientation/office-printer-and-scanner' },
 						{ label: 'Event Registration', slug: 'ehssg-it-orientation/event-registration' },
 						{ label: 'Editing PDF', slug: 'ehssg-it-orientation/editing-pdf' },
+						{ label: 'Common printing settings', slug: 'ehssg-it-orientation/common-printing-settings' },
 						{ label: 'Creating Signature Images', slug: 'ehssg-it-orientation/creating-signature-images' },
 						{ label: 'Common Windows Shortcuts', slug: 'ehssg-it-orientation/common-windows-shortcuts' },
 					],
