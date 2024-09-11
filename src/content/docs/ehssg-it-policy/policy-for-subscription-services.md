@@ -5,7 +5,8 @@ description: Policy on subscription services
 1. **Definition**
 Subscription services involve recurring payments for continuous access to products or services, typically delivered online.
 
-2. **Key considerations**
+* Required approval from the department manager and ICT Staff before subscription.
+<!-- 2. **Key considerations**
 - Relevance to IT strategy and operational needs
 - Vendor reputation
 - Data security and privacy
@@ -22,4 +23,4 @@ Major providers such as Microsoft 365, AWS, Google Workspace, etc., excluding ce
 - Must be compatible with existing systems
 - Adherence to EHSSG Financial policies required
 
-5. **Any deviations from the policy require ICT Manager approval.**
+5. **Any deviations from the policy require ICT Manager approval.** -->

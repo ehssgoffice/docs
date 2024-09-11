@@ -4,17 +4,13 @@ description: Policy on use of organization email
 ---
 ## Email Account Eligibility
 1. **Eligible for organization email accounts**
-* Permanent employees
-* Volunteers
+* Regular staffs
 2. **Not eligible for organization email accounts**
 * Consultants
 * Interns
+* Volunteers
+* Trainees
 * Outsourced freelancers
-3. **Guest accounts**
-* May be provided for consultants and visitors
-* Granted on a case-by-case basis
-* For a limited and fixed duration
-* Requires approval from the Deputy Director or Director
 
 ## Email Account Name
 
@@ -30,7 +26,7 @@ description: Policy on use of organization email
 ## Email Activation and Deactivation
 Accounts are created by ICT personnel upon receiving a request from HR, typically within a week of a new recruit's start date.
 
-Accounts are deactivated on the employee's departure date, with an out-of-office message set up. Mailbox content is deleted after 30 days, following an encrypted backup.
+Accounts are deactivated on the employee's departure date, with an out-of-office message set up. Mailbox content is deleted after 30 days, following an encrypted backup. The supervisor of the departed employee and the new recruited employee for the departed position can have access to back up email.
 
 ## Data Ownership
 The organization owns all data in its email system. Mailbox content can be edited or deleted with proper approvals.

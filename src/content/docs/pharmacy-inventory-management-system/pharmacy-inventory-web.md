@@ -13,6 +13,10 @@ Pharmacy Inventory Management Application ကိုအသုံးပြုဖ�
 
 Application ကိုဖွင့်ရမယ့်လိပ်စာ၊ Sign-in ဝင်ရမယ့် Email ၊ Password တို့ကို ဦးစွာရရှိထားရပါမယ်။ browser မှာ လိပ်စာရိုက်ထည့်ပါ။
 
+:::note
+Application လိပ်စာ၊ Login email နဲ့ password တို့ကို သက်ဆိုင်ရာတာဝန်ရှိသူတွေမှတဆင့် မျှဝေပေးမှာဖြစ်ပါတယ်််််််််််််််််််််
+:::
+
 Email နဲ့ Password တို့ကိုရိုက်ထည့်ပါ။ Remember me ကိုအမှန်ခြစ်ခဲ့မယ်ဆိုရင် နောက်ပိုင်း sign-in ဝင်တဲ့အခါ email နဲ့ password ပြန်ရိုက်ထည့်စရာမလိုတော့ဘဲ အလိုအလျောက် sign-in ဝင်ပေးပါမယ်။ Email နဲ့ password ထည့်ပြီးရင် Sign in ခလုတ်ကိုနှိပ်ပါ။
 
 ရထားတဲ့ Email နဲ့ Password တို့ဟာ application ကိုစီမံခန့်ခွဲနိုင်မယ့် administrator account ဖြစ်တာကြောင့် လုံခြုံရေးသတိရှိဖို့လိုပါတယ်။
