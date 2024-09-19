@@ -2,4 +2,6 @@
 title: Technology Hardware Procurement Policy
 description: Policy on hardware purchase
 ---
-See more at ?
+:::note
+Technology hardware procurement should align with the requirement from the donor.
+:::

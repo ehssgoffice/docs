@@ -2,17 +2,13 @@
 title: Information technology security policy
 description: Policy on IT system security
 ---
-1. **Physical Security**
-- Secure server areas with proper ventilation and access control
-- Use fire extinguishers and UPS for critical equipment
-- Employees responsible for issued portable devices
+:::caution
+Information maintained on the EHSSG systems contains that of donors and members/partners. Keeping the information secure on devices is also securing that of donors and members/partners.
+:::
+**Information Technology Security** includes
+* Physical Security
+* Information Security
+* Securing Credentials
+* Google Drive Access
 
-2. **Information Security**
-- Weekly data backups to NAS and cloud storage
-- Anti-virus software required on all computers
-
-3. **Google Drive Access**
-- Access granted based on job role and responsibilities
-- Department head must have an Authenticator app
-- Regular review of access permissions
-- Secure sharing practices for sensitive information
+Steps to ensure Information Technology Security can be found at [IT Security Procedures](/ehssg-it-procedures/general-it-procedures#information-technology-security-procedures)

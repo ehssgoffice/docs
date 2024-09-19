@@ -60,13 +60,17 @@ export default defineConfig({
 						{ label: 'Email use policy', slug: 'ehssg-it-policy/email-use-policy' },
 						{ label: 'Software installation and usage policy', slug: 'ehssg-it-policy/software-installation-and-usage-policy' },
 						{ label: 'Technology Hardware Procurement Policy', slug: 'ehssg-it-policy/technology-hardware-procurement-policy'},
-						{ label: 'Policy for getting software', slug: 'ehssg-it-policy/policy-for-getting-software'},
 						{ label: 'Policy for subscription services', slug: 'ehssg-it-policy/policy-for-subscription-services'},
-						{ label: 'Policy for software use', slug: 'ehssg-it-policy/policy-for-software-use' },
 						{ label: 'IT asset management policy', slug: 'ehssg-it-policy/it-asset-management-policy' },
 						{ label: 'Policy for bringing your own device', slug: 'ehssg-it-policy/policy-for-bringing-your-own-device'},
 						{ label: 'Information technology security policy', slug: 'ehssg-it-policy/information-technology-security-policy'},
 						{ label: 'Appendix', slug: 'ehssg-it-policy/appendix' },
+					],
+				},
+				{
+					label:' EHSSG IT Procedures',
+					items: [
+						{ label: 'General IT Procedures', slug: 'ehssg-it-procedures/general-it-procedures' },
 					],
 				},
 				{

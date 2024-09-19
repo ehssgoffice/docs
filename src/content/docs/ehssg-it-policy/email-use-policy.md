@@ -12,22 +12,6 @@ description: Policy on use of organization email
 * Trainees
 * Outsourced freelancers
 
-## Email Account Name
-
-1. **For employees with first and last names**
-* Standard format: first initial + last name (e.g., jsmith@ehssg.org)
-* For duplicate names: first initial + last name + department (e.g., jsmithadmin@ehssg.org)
-2. **For employees without a last name**
-* Standard format: initials + last word of the name (e.g., akkyaw@ehssg.org)
-* For duplicate names: initials + last word of the name + department (e.g., akkyawadmin@ehssg.org)
-3. **For rare cases of multiple employees with the same name in a department**
-* Format: initials + last word of the name + department + ascending numbers (e.g., akkyawadmin1@ehssg.org)
-
-## Email Activation and Deactivation
-Accounts are created by ICT personnel upon receiving a request from HR, typically within a week of a new recruit's start date.
-
-Accounts are deactivated on the employee's departure date, with an out-of-office message set up. Mailbox content is deleted after 30 days, following an encrypted backup. The supervisor of the departed employee and the new recruited employee for the departed position can have access to back up email.
-
 ## Data Ownership
 The organization owns all data in its email system. Mailbox content can be edited or deleted with proper approvals.
 
