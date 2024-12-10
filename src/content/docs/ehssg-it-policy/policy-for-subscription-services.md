@@ -2,25 +2,16 @@
 title: Policy for subscription services
 description: Policy on subscription services
 ---
-1. **Definition**
+## Definition
+အခပေးဝန်ဆောင်မှုများဆိုသည်မှာ အဖွဲ့အစည်းဆိုင်ရာလုပ်ငန်းများကို အွန်လိုင်းတွင်စဉ်ဆက်မပြတ် အသုံးပြုနိုင်ရန်အတွက် ပုံမှန်ငွေပေးချေရသော ဝန်ဆောင်မှုများ ဖြစ်သည်။
+
+---
 Subscription services involve recurring payments for continuous access to products or services, typically delivered online.
 
-* Required approval from the department manager and ICT Staff before subscription.
-<!-- 2. **Key considerations**
-- Relevance to IT strategy and operational needs
-- Vendor reputation
-- Data security and privacy
-- Scalability and flexibility
-- Integration capability
+## Application Requirements
+အခပေးဝန်ဆောင်မှုအသုံးပြုလိုပါက သက်ဆိုင်ရာဌာနမန်နေဂျာနှင့် အိုင်တီဝန်ထမ်းတစ်ဦးတို့၏ ထောက်ခံချက်ရယူရမည်။ ၎င်းနှင့်သက်ဆိုင်သည့်ငွေပေးချေမှုများကို ဘဏ်ငွေလွှဲခြင်း (သို့) ခရက်ဒစ်ကဒ်ဖြင့်ပေးချေခြင်းတို့အနက်မှ တစ်မျိုးမျိုးဖြင့်သာ ပြုလုပ်နိုင်သည်။ password များကို password မူဝါဒအတိုင်းလိုက်နာရမည်ဖြစ်ပြီး အသုံးပြုသူဝန်ထမ်းနုတ်ထွက်ပါက သက်ဆိုင်ရာအကောင့်များကို ချက်ချင်းပိတ်သိမ်းရမည်။
 
-3. **Approved vendors**
-Major providers such as Microsoft 365, AWS, Google Workspace, etc., excluding certain mainland China vendors.
-
-4. **Procedures**
-- All subscriptions require ICT staff approval before use
-- Requests must be made via EHSSG.ORG email
-- Approval needed from ICT Manager and supervisor
-- Must be compatible with existing systems
-- Adherence to EHSSG Financial policies required
-
-5. **Any deviations from the policy require ICT Manager approval.** -->
+---
+Required approval from the department manager and ICT Staff before subscription.
+Payments must be made via bank transfer or credit card only.
+Account passwords must follow the specified password policy and accounts must be immediately terminated when an employee leaves.

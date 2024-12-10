@@ -8,6 +8,9 @@ export default defineConfig({
 		starlight({
 			favicon: 'favicon.ico',
 			title: 'Docs by EHSSG',
+			customCss: [
+				'./src/styles/custom.css',
+			],
 			social: {
 				github: 'https://github.com/ehssgoffice',
 			},
