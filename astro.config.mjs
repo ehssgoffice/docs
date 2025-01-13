@@ -32,7 +32,7 @@ export default defineConfig({
 				{
 					label: 'Humentum Courses by EHSSG',
 					items: [
-						{ label: 'Applying for Humentum Courses', slug: 'humentum-courses/applying-for-humentum-courses'},
+						{ label: 'Applying for Humentum Courses', slug: 'humentum-courses/applying-for-humentum-courses' },
 						{ label: 'Joining Courses', slug: 'humentum-courses/joining-courses' },
 						{ label: 'Learning Courses', slug: 'humentum-courses/learning-courses' },
 						{ label: 'Managing Your Account and Profile', slug: 'humentum-courses/managing-your-account-and-profile' },
@@ -52,9 +52,14 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Pharmacy Inventory Management System',
+					label: 'Information Portal',
 					items: [
-						{ label: 'Pharmacy Inventory Web', slug: 'pharmacy-inventory-management-system/pharmacy-inventory-web' },
+						{
+							label: 'Pharmacy Inventory Management System',
+							items: [
+								{ label: 'Pharmacy Inventory Web', slug: 'pharmacy-inventory-management-system/pharmacy-inventory-web' },
+							],
+						},
 					],
 				},
 				{
@@ -62,16 +67,16 @@ export default defineConfig({
 					items: [
 						{ label: 'Email use policy', slug: 'ehssg-it-policy/email-use-policy' },
 						{ label: 'Software installation and usage policy', slug: 'ehssg-it-policy/software-installation-and-usage-policy' },
-						{ label: 'Technology Hardware Procurement Policy', slug: 'ehssg-it-policy/technology-hardware-procurement-policy'},
-						{ label: 'Policy for subscription services', slug: 'ehssg-it-policy/policy-for-subscription-services'},
+						{ label: 'Technology Hardware Procurement Policy', slug: 'ehssg-it-policy/technology-hardware-procurement-policy' },
+						{ label: 'Policy for subscription services', slug: 'ehssg-it-policy/policy-for-subscription-services' },
 						{ label: 'IT asset management policy', slug: 'ehssg-it-policy/it-asset-management-policy' },
-						{ label: 'Policy for bringing your own device', slug: 'ehssg-it-policy/policy-for-bringing-your-own-device'},
-						{ label: 'Information technology security policy', slug: 'ehssg-it-policy/information-technology-security-policy'},
+						{ label: 'Policy for bringing your own device', slug: 'ehssg-it-policy/policy-for-bringing-your-own-device' },
+						{ label: 'Information technology security policy', slug: 'ehssg-it-policy/information-technology-security-policy' },
 						{ label: 'Appendix', slug: 'ehssg-it-policy/appendix' },
 					],
 				},
 				{
-					label:' EHSSG IT Procedures',
+					label: ' EHSSG IT Procedures',
 					items: [
 						{ label: 'General IT Procedures', slug: 'ehssg-it-procedures/general-it-procedures' },
 					],
