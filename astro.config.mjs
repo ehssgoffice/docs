@@ -82,6 +82,16 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'HMIS data dictionary',
+					items: [
+						{ label: 'Introduction', slug: 'hmis-data-dictionary/introduction' },
+						{ label: 'Registry by service', slug: 'hmis-data-dictionary/reg-by-service'},
+						{ label: 'ANC', slug: 'hmis-data-dictionary/anc'},
+						{ label: 'Delivery', slug: 'hmis-data-dictionary/delivery'},
+						{ label: 'PNC', slug: 'hmis-data-dictionary/pnc'},
+					]
+				},
+				{
 					label: 'General References',
 					items: [
 						{ label: 'Email Systems', slug: 'general-references/email-systems' },
