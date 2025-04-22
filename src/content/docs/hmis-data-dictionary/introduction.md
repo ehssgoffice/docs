@@ -21,5 +21,5 @@ The HMIS database consists of the following tables -
 |6.| `fp` | Family Planning services documenting contraceptive methods provided, counseling services, and follow-up care for family planning clients. |
 |7.| `gm` | General Medical consultations recording vital signs, diagnoses, treatments, procedures, and outcomes for general health concerns. |
 |8.| `lab` | Laboratory test results including hematology, urinalysis, sexually transmitted infection screening, and other diagnostic procedures. |
-|9.| `beneficiaries` | Records of individuals who have received vaccinations, including demographic information, pregnancy status, conflict area residence, IDP status, disability status, and vaccination details. |
+|9.| `vaccination` | Records of individuals who have received vaccinations, including demographic information, pregnancy status, conflict area residence, IDP status, disability status, and vaccination details. |
 |10.| `population_projection` | Demographic data for planning purposes, providing population estimates by age groups, including specific counts for children under five years, reproductive-age women, pregnant women, and the elderly. |
