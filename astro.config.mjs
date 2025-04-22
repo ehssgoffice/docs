@@ -93,6 +93,7 @@ export default defineConfig({
 						{ label: 'General Medical', slug: 'hmis-data-dictionary/general-medical'},
 						{ label: 'Reproductive Health', slug: 'hmis-data-dictionary/reproductive-health'},
 						{ label: 'Family Planning', slug: 'hmis-data-dictionary/family-planning'},
+						{ label: 'Vaccination', slug: 'hmis-data-dictionary/vaccination'},
 					]
 				},
 				{
