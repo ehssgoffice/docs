@@ -89,6 +89,7 @@ export default defineConfig({
 						{ label: 'ANC', slug: 'hmis-data-dictionary/anc'},
 						{ label: 'Delivery', slug: 'hmis-data-dictionary/delivery'},
 						{ label: 'PNC', slug: 'hmis-data-dictionary/pnc'},
+						{ label: 'Lab', slug: 'hmis-data-dictionary/lab'},
 					]
 				},
 				{
