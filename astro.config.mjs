@@ -91,6 +91,7 @@ export default defineConfig({
 						{ label: 'PNC', slug: 'hmis-data-dictionary/pnc'},
 						{ label: 'Lab', slug: 'hmis-data-dictionary/lab'},
 						{ label: 'General Medical', slug: 'hmis-data-dictionary/general-medical'},
+						{ label: 'Reproductive Health', slug: 'hmis-data-dictionary/reproductive-health'},
 					]
 				},
 				{
