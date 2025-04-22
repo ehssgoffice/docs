@@ -90,6 +90,7 @@ export default defineConfig({
 						{ label: 'Delivery', slug: 'hmis-data-dictionary/delivery'},
 						{ label: 'PNC', slug: 'hmis-data-dictionary/pnc'},
 						{ label: 'Lab', slug: 'hmis-data-dictionary/lab'},
+						{ label: 'General Medical', slug: 'hmis-data-dictionary/general-medical'},
 					]
 				},
 				{
