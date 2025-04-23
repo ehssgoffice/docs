@@ -95,6 +95,7 @@ export default defineConfig({
 						{ label: 'Family Planning', slug: 'hmis-data-dictionary/family-planning'},
 						{ label: 'Vaccination', slug: 'hmis-data-dictionary/vaccination'},
 						{ label: 'Population Projection', slug: 'hmis-data-dictionary/population-projection'},
+						{ label: 'Disease Surveillance', slug: 'hmis-data-dictionary/disease-surveillance'},
 					]
 				},
 				{
