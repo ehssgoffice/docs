@@ -55,9 +55,11 @@ export default defineConfig({
 					label: 'Information Portal',
 					items: [
 						{
-							label: 'Pharmacy Inventory Management System',
+							label: 'Logistics Management Information System',
 							items: [
-								{ label: 'Pharmacy Inventory Web', slug: 'pharmacy-inventory-management-system/pharmacy-inventory-web' },
+								{ label: 'Getting started', slug: 'logistics-management-information-system/getting-started' },
+								{ label: 'My Inventory Settings', slug: 'logistics-management-information-system/my-inventory-settings'},
+								{ label: 'LMIS Admin Settings', slug: 'logistics-management-information-system/lmis-admin-settings'},
 							],
 						},
 					],
